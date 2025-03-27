@@ -1,0 +1,37 @@
+[
+  {
+    "titolo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "cover": "https://example.com/dark-side-moon.jpg",
+    "anno": 1973,
+    "genere": "Progressive Rock"
+  },
+  {
+    "titolo": "Thriller",
+    "artista": "Michael Jackson",
+    "cover": "https://example.com/thriller.jpg",
+    "anno": 1982,
+    "genere": "Pop"
+  },
+  {
+    "titolo": "Back in Black",
+    "artista": "AC/DC",
+    "cover": "https://example.com/back-in-black.jpg",
+    "anno": 1980,
+    "genere": "Hard Rock"
+  },
+  {
+    "titolo": "Nevermind",
+    "artista": "Nirvana",
+    "cover": "https://example.com/nevermind.jpg",
+    "anno": 1991,
+    "genere": "Grunge"
+  },
+  {
+    "titolo": "Abbey Road",
+    "artista": "The Beatles",
+    "cover": "https://example.com/abbey-road.jpg",
+    "anno": 1969,
+    "genere": "Rock"
+  }
+]
