@@ -1,5 +1,6 @@
 <?php
-require './functions.php'
+require_once './functions.php';
+require_once './header.php';
 ?>
 
 
@@ -9,6 +10,7 @@ require './functions.php'
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -17,18 +19,18 @@ require './functions.php'
 
 <body class="max-w-100vh">
   <div class="container my-5 w-50">
-    <div class="row">
+    <div class="row row-cols-3 mb-2">
       <?php
       foreach ($dischi as $disco) {
-        echo "<div class='col-4'>
+        echo "<div class='col mb-2'>
                 <div class='card'>
                  <img src='{$disco['cover']}' class='card-img-top img-fluid' alt='Cover del disco {$disco['titolo']}'>
                   <div class='card-body d-flex flex-column justify-content-center'>
 
-                    <h5 class='card-title text-center'>{$disco['titolo']}</h5>
-                    <p class='card-text text-center m-0'>{$disco['artista']}</p>
-                    <p class='card-text text-center m-0'>{$disco['anno']}</p>
-                    <p class='card-text text-center m-0'>{$disco['genere']}</p>
+                    <h5 class='card-title text-center fs-4'>{$disco['titolo']}</h5>
+                    <p class='card-text text-center m-0 fs-6'>{$disco['artista']}</p>
+                    <p class='card-text text-center m-0 fs-6'>{$disco['anno']}</p>
+                    <p class='card-text text-center m-0 fs-6'>{$disco['genere']}</p>
     
                   </div>
 
@@ -37,17 +39,31 @@ require './functions.php'
       }
       ?>
     </div>
-    <h4>Aggiungi un nuovo album</h4>
-    <form action="server.php" method="POST">
+    <h4 class="text-center">Aggiungi un nuovo album</h4>
+    <form action="server.php" method="POST" class="d-flex flex-column gap-1 border">
       <div class="form-control">
         <input type="text" id="albumTitle" name="albumTitle" placeholder="Titolo" required>
-        <input type="text" id="albumArtist" name="albumArtist" placeholder="Artista" required>
-        <input type="url" id="albumCover" name="albumCover" placeholder="Url della cover" required>
-        <input type="number" id="albumYear" name="albumYear" placeholder="Anno" required>
-        <input type="text" id="albumGenre" name="albumGenre" placeholder="Genere" required>
-        <button>Aggiungi</button>
+        <label for="albumTitle">Titolo</label>
       </div>
-    </form>
+      <div class="form-control">
+        <input type="text" id="albumArtist" name="albumArtist" placeholder="Artista" required>
+        <label for="albumArtist">Artista</label>
+      </div>
+      <div class="form-control">
+        <input type="url" id="albumCover" name="albumCover" placeholder="Url della cover" required>
+        <label for="albumCover">Cover</label>
+      </div>
+      <div class="form-control">
+        <input type="number" id="albumYear" name="albumYear" placeholder="Anno" required>
+        <label for="albumYear">Anno</label>
+      </div>
+      <div class="form-control">
+        <input type="text" id="albumGenre" name="albumGenre" placeholder="Genere" required>
+        <label for="albumGenre">Genere</label>
+      </div>
+      <button class="btn btn-success">Aggiungi</button>
+  </div>
+  </form>
 
 
   </div>

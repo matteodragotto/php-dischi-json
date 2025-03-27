@@ -2,43 +2,50 @@
   {
     "titolo": "The Dark Side of the Moon",
     "artista": "Pink Floyd",
-    "cover": "https://legendarycover.it/wp-content/uploads/2019/06/thedarksideofthemoon-e1559419433695.jpg",
+    "cover": "https:\/\/legendarycover.it\/wp-content\/uploads\/2019\/06\/thedarksideofthemoon-e1559419433695.jpg",
     "anno": 1973,
     "genere": "Progressive Rock"
   },
   {
     "titolo": "Thriller",
     "artista": "Michael Jackson",
-    "cover": "https://m.media-amazon.com/images/I/81ogsUqshzL._UF1000,1000_QL80_.jpg",
+    "cover": "https:\/\/m.media-amazon.com\/images\/I\/81ogsUqshzL._UF1000,1000_QL80_.jpg",
     "anno": 1982,
     "genere": "Pop"
   },
   {
     "titolo": "Back in Black",
-    "artista": "AC/DC",
-    "cover": "https://upload.wikimedia.org/wikipedia/commons/9/92/ACDC_Back_in_Black.png",
+    "artista": "AC\/DC",
+    "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/92\/ACDC_Back_in_Black.png",
     "anno": 1980,
     "genere": "Hard Rock"
   },
   {
     "titolo": "Nevermind",
     "artista": "Nirvana",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+    "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/b\/b7\/NirvanaNevermindalbumcover.jpg",
     "anno": 1991,
     "genere": "Grunge"
   },
   {
     "titolo": "Abbey Road",
     "artista": "The Beatles",
-    "cover": "https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg",
+    "cover": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/4\/42\/Beatles_-_Abbey_Road.jpg",
     "anno": 1969,
     "genere": "Rock"
   },
   {
     "titolo": "Hotel California",
     "artista": "Eagles",
-    "cover": "https://eurostore.warnermusic.com/dw/image/v2/BHCC_PRD/on/demandware.static/-/Sites-warner-master/default/dw6b0213d6/pdp-img-eu/3_3_1.jpg?sw=800&sh=800&sm=fit",
+    "cover": "https:\/\/eurostore.warnermusic.com\/dw\/image\/v2\/BHCC_PRD\/on\/demandware.static\/-\/Sites-warner-master\/default\/dw6b0213d6\/pdp-img-eu\/3_3_1.jpg?sw=800&sh=800&sm=fit",
     "anno": 1976,
     "genere": "Rock"
+  },
+  {
+    "titolo": "The Wall",
+    "artista": "Pink Floyd",
+    "cover": "https:\/\/m.media-amazon.com\/images\/I\/715jbEtLNcL._UF1000,1000_QL80_.jpg",
+    "anno": "1979",
+    "genere": "Progressive Rock"
   }
 ]
